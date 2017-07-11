@@ -1,6 +1,6 @@
 {
   "name": "mixwith-es5",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple, powerful mixin applier for JavaScript classes",
   "main": "mixwith.js",
   "directories": {
