@@ -1,6 +1,6 @@
 {
   "name": "mixwith",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple, powerful mixin applier for JavaScript classes",
   "main": "mixwith.js",
   "directories": {
@@ -28,7 +28,16 @@
     "classes"
   ],
   "browserify": {
-    "transform": [["babelify", { "presets": ["es2015"] }]]
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   },
   "author": "Jusitn Fagnani <justin@fagnani.com>",
   "license": "Apache-2.0",
