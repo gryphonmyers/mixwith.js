@@ -27,6 +27,9 @@
     "mixins",
     "classes"
   ],
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
+  },
   "author": "Jusitn Fagnani <justin@fagnani.com>",
   "license": "Apache-2.0",
   "bugs": {
