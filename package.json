@@ -1,5 +1,5 @@
 {
-  "name": "mixwith-es5",
+  "name": "mixwith",
   "version": "0.1.3",
   "description": "A simple, powerful mixin applier for JavaScript classes",
   "main": "mixwith.js",
@@ -27,18 +27,6 @@
     "mixins",
     "classes"
   ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ]
-    ]
-  },
   "author": "Jusitn Fagnani <justin@fagnani.com>",
   "license": "Apache-2.0",
   "bugs": {
